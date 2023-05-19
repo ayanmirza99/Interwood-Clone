@@ -1,857 +1,646 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="main.css" />
-    <title>Interwood | Pakistan's Leading Home & Office Furniture Store</title>
-  </head>
+* {
+  margin: 0;
+  padding: 0;
+}
 
-  <body>
-    <!-- TOP MENU STARTS -->
-    <div class="header-color">
-      <div class="top-menu">
-        <nav>
-          <div class="left">
-            <a title="UAN Number" href="tel:021111203203">021-111-203-203</a>
-          </div>
-          <div class="right">
-            <ul>
-              <li class="initial">
-                <a href="https://interwood.pk/store-locator" target="_parent"
-                  >Stores</a
-                >
-              </li>
-              <li>
-                <a href="https://interwood.pk/contact-us" target="_parent"
-                  >Contact us</a
-                >
-              </li>
-              <li>
-                <a href="https://interwood.pk/installments">Installments</a>
-              </li>
-              <li><a href="https://corporate.interwood.pk/">Corporate</a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-      <hr />
-      <!-- MIDDLE MENU STARTS -->
-      <div class="middle">
-        <nav>
-          <div class="logo">
-            <img src="img/logo.png" />
-          </div>
-          <div class="search">
-            <input class="search-bar" placeholder="Search" />
-            <button class="search-btn" style="font-size: 24px">
-              <i class="fa fa-search"></i>
-            </button>
-          </div>
-          <div class="icons">
-            <ul>
-              <li>
-                <a href="https://interwood.pk/signin" target="_parent"
-                  ><i style="font-size: 24px" class="fa">&#xf2c0;</i></a
-                >
-              </li>
-              <li>
-                <a href="https://interwood.pk/signin" target="_parent"
-                  ><i style="font-size: 24px" class="fa">&#xf08a;</i></a
-                >
-              </li>
-              <li>
-                <a href="https://interwood.pk/signin" target="_parent"
-                  ><i style="font-size: 24px" class="fa">&#xf07a;</i></a
-                >
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-      <hr />
-      <!-- BOTTOM DROPDOWN MENU STARTS -->
-      <nav class="drop" style="background-color: white">
-        <ul class="primary">
-          <li class="one">
-            <a href="#"
-              >Pakistan Day Sale<i style="font-size: 14" class="fa"
-                >&#xf107;</i
-              ></a
-            >
-            <ul class="pds">
-              <li><a href="#">HOME FURNITURE</a></li>
-              <br />
-              <li><a href="#">OFFICE FURNITURE</a></li>
-              <br />
-              <li><a href="#">DECOR</a></li>
-              <br />
-              <li><a href="#">KITCHEN</a></li>
-            </ul>
-          </li>
-          <li class="two">
-            <a href="#"
-              >Bedroom <i style="font-size: 14" class="fa">&#xf107;</i></a
-            >
-            <ul class="bdr">
-              <li><a href="#">BEDS</a></li>
-              <br />
-              <li><a href="#">STORAGE</a></li>
-              <br />
-              <li><a href="#">DECOR</a></li>
-              <br />
-              <li><a href="#">SEATING AND CHAIRS</a></li>
-            </ul>
-          </li>
-          <li class="three">
-            <a href="#"
-              >Living <i style="font-size: 14" class="fa">&#xf107;</i></a
-            >
-            <ul class="liv">
-              <li><a href="#">SOFAS</a></li>
-              <br />
-              <li><a href="#">SOFA BED</a></li>
-              <br />
-              <li><a href="#">RECLINERS</a></li>
-              <br />
-              <li><a href="#">CHAIRS</a></li>
-              <br />
-              <li><a href="#">TABLES</a></li>
-              <br />
-              <li><a href="#">STORAGE</a></li>
-              <br />
-              <li><a href="#">OUTDOOR FURNITURE</a></li>
-              <br />
-              <li><a href="#">FLOORING</a></li>
-            </ul>
-          </li>
-          <li class="four">
-            <a href="#"
-              >Study <i style="font-size: 14" class="fa">&#xf107;</i></a
-            >
-            <ul class="std">
-              <li><a href="#">HOME OFFICE DESKS</a></li>
-            </ul>
-          </li>
-          <li class="five">
-            <a href="#"
-              >Kids <i style="font-size: 14" class="fa">&#xf107;</i></a
-            >
-            <ul class="kids">
-              <li><a href="#">KIDS BEDS</a></li>
-              <br />
-              <li><a href="#">STORAGE</a></li>
-              <br />
-              <li><a href="#">TABLES AND DESKS</a></li>
-              <br />
-              <li><a href="#">KIDS SEATING AND CHAIRS</a></li>
-            </ul>
-          </li>
-          <li class="six">
-            <a href="#"
-              >Dining <i style="font-size: 14" class="fa">&#xf107;</i></a
-            >
-            <ul class="dining">
-              <li><a href="#">KITCHEN AND DINING ROOM FURNITURE</a></li>
-            </ul>
-          </li>
-          <li class="seven">
-            <a href="#"
-              >Decor <i style="font-size: 14" class="fa">&#xf107;</i></a
-            >
-            <ul class="decor">
-              <li><a href="#">ACCESSORIES</a></li>
-              <br />
-              <li><a href="#">ACCENT FURNITURE</a></li>
-              <br />
-              <li><a href="#">SOFT FURNISHING</a></li>
-            </ul>
-          </li>
-          <li class="eight">
-            <a href="#"
-              >Office <i style="font-size: 14" class="fa">&#xf107;</i></a
-            >
-            <ul class="office">
-              <li><a href="#">OFFICE TABLES</a></li>
-              <br />
-              <li><a href="#">OFFICE CHAIRS</a></li>
-              <br />
-              <li><a href="#">WORKSTATIONS</a></li>
-              <br />
-              <li><a href="#">SEATING</a></li>
-              <br />
-              <li><a href="#">CO-WORKING SPACES</a></li>
-              <br />
-              <li><a href="#">OFFICE EXECUTIVE FURNITURE</a></li>
-              <br />
-              <li><a href="#">STORAGE</a></li>
-            </ul>
-          </li>
-          <li class="nine">
-            <a href="#"
-              >Kitchens <i style="font-size: 14" class="fa">&#xf107;</i></a
-            >
-            <ul class="kitchen">
-              <li><a href="#">KITCHEN DESIGNS</a></li>
-              <br />
-              <li><a href="#">KITCHEN ACCESSORIES</a></li>
-              <br />
-              <li><a href="#">KITCHEN APPLIANCES</a></li>
-            </ul>
-          </li>
-          <li class="ten">
-            <a href="#"
-              >Doors <i style="font-size: 14" class="fa">&#xf107;</i></a
-            >
-            <ul class="doors">
-              <li><a href="#">MAIN DOORS</a></li>
-              <br />
-              <li><a href="#">PANEL DOORS</a></li>
-              <br />
-              <li><a href="#">GLASS DOORS</a></li>
-              <br />
-              <li><a href="#">VENEER DOORS</a></li>
-              <br />
-              <li><a href="#">THERMOSET DOORS</a></li>
-              <br />
-              <li><a href="#">PAINTED DOORS</a></li>
-              <br />
-              <li><a href="#">LAMINATED DOORS</a></li>
-              <br />
-              <li><a href="#">SLIDING DOORS</a></li>
-            </ul>
-          </li>
-          <li class="eleven">
-            <a href="#"
-              >Wardrobes <i style="font-size: 14" class="fa">&#xf107;</i></a
-            >
-            <ul class="wdr">
-              <li><a>BUILT-IN WARDROBES</a></li>
-              <br />
-              <li><a>3 DOORS WARDROBES</a></li>
-              <br />
-              <li><a>SLIDING WARDROBES</a></li>
-              <br />
-              <li><a>4 DOORS WARDROBES</a></li>
-              <br />
-              <li><a>2 DOORS WARDROBES</a></li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
-      <br /><br /><br />
-      <!------------------------------->
-      <!------------------------------->
-      <!------------------------------->
+body {
+  font-family: "Poppins", sans-serif;
+}
 
-      <div class="sale-image-container">
-        <a href="https://interwood.pk/sale.html?page=1"
-          ><img
-            class="sale-img"
-            src="https://interwood.pk/media/wysiwyg/Pakistan-Day-Sale-23-D-2023.jpg"
-            alt=""
-        /></a>
-      </div>
-      <div class="heading">
-        <h2>
-          <span
-            >Shop By Category
-            <div></div>
-          </span>
-        </h2>
-      </div>
-      <div class="items-container">
-        <div class="flex-container">
-          <div class="item">
-            <a href="https://interwood.pk/bedroom-furniture/beds.html?page=1"
-              ><img
-                class="images"
-                src="https://interwood.pk/media/wysiwyg/02.svg"
-                alt=""
-            /></a>
-            <h3>Beds</h3>
-          </div>
-          <div class="item">
-            <a
-              href="https://interwood.pk/living-room-furniture/sofas.html?page=1"
-              ><img
-                class="images"
-                src="https://interwood.pk/media/wysiwyg/svgexport-1.svg"
-                alt=""
-            /></a>
-            <h3>Sofas</h3>
-          </div>
-          <div class="item">
-            <a href="https://interwood.pk/dining-room-furniture.html?page=1"
-              ><img
-                class="images"
-                src="https://interwood.pk/media/wysiwyg/svgexport-1_2_.svg"
-                alt=""
-            /></a>
-            <h3>Dining</h3>
-          </div>
-          <div class="item">
-            <a
-              href="https://interwood.pk/office-furniture/office-chair.html?page=1"
-              ><img
-                class="images"
-                src="https://interwood.pk/media/wysiwyg/svgexport-1_3_.svg"
-                alt=""
-            /></a>
-            <h3>Office Chairs</h3>
-          </div>
-          <div class="item">
-            <a href="https://interwood.pk/study-room-furniture.html?page=1"
-              ><img
-                class="images"
-                src="https://interwood.pk/media/wysiwyg/study_room_furniture.svg"
-                alt=""
-            /></a>
-            <h3>Study</h3>
-          </div>
-          <div class="item">
-            <a href="https://interwood.pk/living-room-furniture/chairs.html"
-              ><img
-                class="images"
-                src="https://interwood.pk/media/wysiwyg/seating.svg"
-                alt=""
-            /></a>
-            <h3>Seating</h3>
-          </div>
-        </div>
-        <div class="flex-container">
-          <div class="item">
-            <a
-              href="https://interwood.pk/living-room-furniture/bookshelves.html"
-              ><img
-                class="images"
-                src="https://interwood.pk/media/wysiwyg/bookshelves.svg"
-                alt=""
-              />
-            </a>
-            <h3>Bookshelves</h3>
-          </div>
-          <div class="item">
-            <a href="https://interwood.pk/living-room-furniture/tables.html"
-              ><img
-                class="images"
-                src="https://interwood.pk/media/wysiwyg/06.svg"
-                alt=""
-            /></a>
-            <h3>Tables</h3>
-          </div>
-          <div class="item">
-            <a
-              href="https://interwood.pk/living-room-furniture/storage.html?page=1"
-              ><img
-                class="images"
-                src="https://interwood.pk/media/wysiwyg/Storage_Furniture.svg"
-                alt=""
-            /></a>
-            <h3>Storage</h3>
-          </div>
-          <div class="item">
-            <a href="https://interwood.pk/wardrobe-design-in-pakistan.html"
-              ><img
-                class="images"
-                src="https://interwood.pk/media/wysiwyg/wardrobe.svg"
-                alt=""
-            /></a>
-            <h3>Wardrobes</h3>
-          </div>
-          <div class="item">
-            <a href="https://interwood.pk/home-decor.html"
-              ><img
-                class="images"
-                src="https://interwood.pk/media/wysiwyg/home-decor-online-sale.svg"
-                alt=""
-            /></a>
-            <h3>Decor</h3>
-          </div>
-          <div class="item">
-            <a href="https://interwood.pk/kids-furniture/beds.html"
-              ><img
-                class="images"
-                src="https://interwood.pk/media/wysiwyg/bed-bunk.svg"
-                alt=""
-            /></a>
-            <h3>Bunk Beds</h3>
-          </div>
-        </div>
-      </div>
-      <div class="new-arrivals-image-container">
-        <a href="https://interwood.pk/new-arrival.html?page=1"
-          ><img
-            class="new-arrivals-image"
-            src="https://interwood.pk/media/wysiwyg/Web_Banner_4_1920x870.jpg"
-        /></a>
-      </div>
-      <div class="best-seller-image-container">
-        <a href="https://interwood.pk/best-sellers.html?page=1"
-          ><img
-            class="best-seller-image"
-            src="https://interwood.pk/media/wysiwyg/Web_Banner_3_1920x870.jpg"
-        /></a>
-      </div>
-      <div class="decor-image-flex-container">
-        <div class="image">
-          <a href="https://interwood.pk/home-decor.html?page=1"
-            ><img
-              class="home-decor-image"
-              src="https://interwood.pk/media/wysiwyg/Web_Banner_1_924x1026.jpg"
-              alt=""
-          /></a>
-        </div>
-        <div class="image">
-          <a href="https://interwood.pk/kids-furniture.html?page=1"
-            ><img
-              class="home-decor-image"
-              src="https://interwood.pk/media/wysiwyg/Web_Banner_2_924x1026.jpg"
-              alt=""
-          /></a>
-        </div>
-      </div>
-      <div class="new-arrivals-image-container">
-        <a href="https://interwood.pk/new-arrival.html?page=1"
-          ><img
-            class="new-arrivals-image"
-            src="https://interwood.pk/media/wysiwyg/Web_Banner_2_1920x870_2.jpg"
-            alt=""
-        /></a>
-      </div>
-      <div class="sale-image-flex-container">
-        <div class="image">
-          <a href="https://interwood.pk/sale.html?page=1"
-            ><img
-              class="sale-img"
-              src="https://interwood.pk/media/wysiwyg/Web_Banner_3_924x1026.jpg"
-              alt=""
-          /></a>
-        </div>
-        <div class="image">
-          <a href="https://interwood.pk/study-room-furniture.html?page=1"
-            ><img
-              class="sale-img"
-              src="https://interwood.pk/media/wysiwyg/Web_Banner_4_924x1026.jpg"
-              alt=""
-          /></a>
-        </div>
-      </div>
-      <div class="kitchen-image-container">
-        <a href="https://interwood.pk/kitchens.html?page=1"
-          ><img
-            class="kitchen-image"
-            src="https://interwood.pk/media/wysiwyg/Web_Banner_5_1920x870.jpg"
-            alt=""
-        /></a>
-        <a href="https://interwood.pk/office-furniture/workstations.html?page=1"
-          ><img
-            class="kitchen-image"
-            src="https://interwood.pk/media/wysiwyg/Web_Banner_6_1920x870.jpg"
-            alt=""
-        /></a>
-      </div>
-      <div class="heading">
-        <h2>
-          <span
-            >Interwood Catalogues
-            <div></div>
-          </span>
-        </h2>
-      </div>
-      <div class="container-1">
-        <div class="left-bottom">
-          <div class="box">
-            <h2>Home Furniture</h2>
-            <a
-              href="https://interwood.pk/media/catalogues/home_catalogue_2022.pdf"
-              >Explore All</a
-            >
-          </div>
-        </div>
-        <div class="right-bottom">
-          <div class="box">
-            <h2>Doors</h2>
-            <a
-              href="https://interwood.pk/media/catalogues/doors_catalogue_2021.pdf"
-              >Explore All</a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="heading">
-        <h2>
-          <span
-            >From Our Blog
-            <div></div>
-          </span>
-        </h2>
-      </div>
-      <div class="container-1 blog-container">
-        <div class="blog">
-          <div class="content">
-            <h3>
-              <a
-                href="https://interwood.pk/blog/10/buy-the-best-wall-clock-designs-in-pakistan"
-                >Buy the Best Wall Clock Designs in Pakistan</a
-              >
-            </h3>
-            <p>March 14,2023</p>
-            <p>
-              Add design and functionality with Interwood's range of exquisite,
-              modern, and affordable wall clock designs in Pakistan.
-            </p>
-            <div>
-              <a
-                href="https://interwood.pk/blog/10/buy-the-best-wall-clock-designs-in-pakistan"
-                >Read Blog</a
-              >
-            </div>
-          </div>
-        </div>
-        <div id="sofa-set-designs" class="blog">
-          <div class="content">
-            <h3>
-              <a
-                href="https://interwood.pk/blog/9/best-sofa-set-designs-for-wedding-season-2022"
-                >Best Sofa Set Designs For Wedding Season 2022</a
-              >
-            </h3>
-            <p>Oct 22,2022</p>
-            <p>
-              Find the best sofa set designs for wedding season 2022 at
-              affordable prices and get exciting discounts with every add-on
-              only at Interwood.
-            </p>
-            <div>
-              <a
-                href="https://interwood.pk/blog/9/best-sofa-set-designs-for-wedding-season-2022"
-                >Read Blog</a
-              >
-            </div>
-          </div>
-        </div>
-        <div id="blog-item" class="blog">
-          <div class="content">
-            <h3>
-              <a
-                href="https://interwood.pk/blog/9/best-sofa-set-designs-for-wedding-season-2022"
-                >Local Ingenuity. Global Standards.</a
-              >
-            </h3>
-            <p>Oct 10,2022</p>
-            <p>
-              Learn how Interwood applies global standards, insights, and
-              innovation to locally manufacture its trusted range of furniture.
-            </p>
-            <div>
-              <a
-                href="https://interwood.pk/blog/8/pakistan-most-trusted-locally-manufactured-furniture"
-                >Read Blog</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+.header-color {
+  background-color: white;
+}
 
-    <div class="container">
-      <div class="row">
-        <h2 class="text-center mt-5 mb-3">
-          Buy the best furniture online in Pakistan with InterWood
-        </h2>
-        <p class="text-center" style="color: rgb(114, 114, 114)">
-          Interwood is the best furniture brands in Pakistan that manufactures
-          the highest-quality classic, modern and luxurious furniture for a
-          unique touch of elegance and class to home interiors. From vintage to
-          contemporary furniture design and royal to classical furniture online,
-          embedded is the essence of uniqueness with keen craft.
-        </p>
-        <a href="#"
-          ><p
-            class="text-center text-success"
-            style="text-decoration: underline"
-          >
-            READ MORE+
-          </p></a
-        >
-      </div>
-    </div>
-    <div class="container-fluid" style="background-color: rgb(230, 229, 229)">
-      <div class="container mt-5 pb-5">
-        <div class="row pt-5">
-          <div class="col-lg-3">
-            <h5 class="fw-bold mb-4">INFORMATION</h5>
-            <a
-              href="#"
-              style="
-                text-decoration: none;
-                color: rgb(19, 19, 19);
-                line-height: 20px;
-                font-weight: 300;
-              "
-              ><p>About Interwood</p></a
-            >
-            <a
-              href="#"
-              style="
-                text-decoration: none;
-                color: rgb(19, 19, 19);
-                line-height: 20px;
-                font-weight: 300;
-              "
-              ><p>Store Locator</p></a
-            >
-            <a
-              href="#"
-              style="
-                text-decoration: none;
-                color: rgb(19, 19, 19);
-                line-height: 20px;
-                font-weight: 300;
-              "
-              ><p>Blog</p></a
-            >
-            <a
-              href="#"
-              style="
-                text-decoration: none;
-                color: rgb(19, 19, 19);
-                line-height: 20px;
-                font-weight: 300;
-              "
-              ><p>Payments</p></a
-            >
-            <a
-              href="#"
-              style="
-                text-decoration: none;
-                color: rgb(19, 19, 19);
-                line-height: 20px;
-                font-weight: 300;
-              "
-              ><p>Shipping</p></a
-            >
-            <a
-              href="#"
-              style="
-                text-decoration: none;
-                color: rgb(19, 19, 19);
-                line-height: 20px;
-                font-weight: 300;
-              "
-              ><p>Authorized Dealers</p></a
-            >
-            <a
-              href="#"
-              style="
-                text-decoration: none;
-                color: rgb(19, 19, 19);
-                line-height: 20px;
-                font-weight: 300;
-              "
-              ><p>Careers</p></a
-            >
-            <a
-              href="#"
-              style="
-                text-decoration: none;
-                color: rgb(19, 19, 19);
-                line-height: 20px;
-                font-weight: 300;
-              "
-              ><p>Terms of Offers for Sale</p></a
-            >
-            <a
-              href="#"
-              style="
-                text-decoration: none;
-                color: rgb(19, 19, 19);
-                line-height: 20px;
-                font-weight: 300;
-              "
-              ><p>Terms of Use</p></a
-            >
-            <a
-              href="#"
-              style="
-                text-decoration: none;
-                color: rgb(19, 19, 19);
-                line-height: 20px;
-                font-weight: 300;
-              "
-              ><p>Privacy Policy</p></a
-            >
-          </div>
-          <div class="col-lg-3">
-            <h5 class="fw-bold mb-4">USER AREA</h5>
-            <a
-              href="#"
-              style="
-                text-decoration: none;
-                color: rgb(19, 19, 19);
-                line-height: 20px;
-                font-weight: 300;
-              "
-              ><p>Corporate</p></a
-            >
-            <a
-              href="#"
-              style="
-                text-decoration: none;
-                color: rgb(19, 19, 19);
-                line-height: 20px;
-                font-weight: 300;
-              "
-              ><p>Corporate Form</p></a
-            >
-            <a
-              href="#"
-              style="
-                text-decoration: none;
-                color: rgb(19, 19, 19);
-                line-height: 20px;
-                font-weight: 300;
-              "
-              ><p>Contact Us</p></a
-            >
-            <a
-              href="#"
-              style="
-                text-decoration: none;
-                color: rgb(19, 19, 19);
-                line-height: 20px;
-                font-weight: 300;
-              "
-              ><p>Information/Lead Form</p></a
-            >
-            <a
-              href="#"
-              style="
-                text-decoration: none;
-                color: rgb(19, 19, 19);
-                line-height: 20px;
-                font-weight: 300;
-              "
-              ><p>Rewards</p></a
-            >
-            <a
-              href="#"
-              style="
-                text-decoration: none;
-                color: rgb(19, 19, 19);
-                line-height: 20px;
-                font-weight: 300;
-              "
-              ><p>Loyalty Form</p></a
-            >
-          </div>
-          <div class="col-lg-3">
-            <h5 class="fw-bold mb-4">CONTACT INFO</h5>
-            <a
-              href="#"
-              style="
-                text-decoration: none;
-                color: rgb(19, 19, 19);
-                line-height: 20px;
-                font-weight: 300;
-              "
-              ><p>021-111-203-203</p></a
-            ><br />
-            <a
-              href="#"
-              style="
-                text-decoration: none;
-                color: rgb(19, 19, 19);
-                line-height: 20px;
-                font-weight: 300;
-              "
-              ><p>complaints@interwoodmobel.com</p></a
-            >
-            <h5 class="fw-bold mt-4 mb-4">CERTIFIED BY</h5>
-            <img
-              src="img/footer-logo-01.png"
-              alt="certified-img"
-              width="90px"
-              class="px-1 shadow"
-            />
-            <img
-              src="img/footer-logo-02.png"
-              alt="certified-img"
-              width="90px"
-              class="px-1 shadow"
-            />
-            <img
-              src="img/footer-logo-03.png"
-              alt="certified-img"
-              width="90px"
-              class="shadow"
-            />
-          </div>
-          <div class="col-lg-3">
-            <h5 class="fw-bold mb-4">FOLLOW US</h5>
-            <a href="#"
-              ><i
-                style="color: black"
-                class="fa fa-facebook fa-2x px-2"
-                aria-hidden="true"
-              ></i
-            ></a>
-            <a href="#"
-              ><i
-                style="color: black"
-                class="fa fa-instagram fa-2x px-2"
-                aria-hidden="true"
-              ></i
-            ></a>
-            <a href="#"
-              ><i
-                style="color: black"
-                class="fa fa-twitter fa-2x"
-                aria-hidden="true"
-              ></i
-            ></a>
-            <a
-              href="#"
-              style="
-                text-decoration: none;
-                color: rgb(19, 19, 19);
-                line-height: 30px;
-                font-weight: 300;
-              "
-              ><p class="pt-3">
-                Subscribe to our newsletter to get the latest news and product
-                updates directly to your email. Just a second to subscribe today
-              </p></a
-            >
+/* --------------- */
+/* TOP MENU START */
+/* --------------- */
 
-            <div class="search">
-              <input class="search-bar" placeholder="Email here" />
-              <button class="search-btn" style="font-size: 24px">GO</button>
-            </div>
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
 
-            <h5 class="fw-bold mt-5 text-success">INSTALLMENT PLANS</h5>
-            <img src="img/img-silkbank.png" alt="bank-img" width="80px" />
-            <img src="img/img-faysalbank.png" alt="bank-img" width="80px" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
+nav ul {
+  display: flex;
+}
+.initial {
+  padding-left: 580px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 4px 25px;
+}
+nav ul li a:hover {
+  color: #21b259;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.top-menu .left a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: #21b259;
+}
+
+/* --------------- */
+/* TOP MENU FINISH */
+/* --------------- */
+
+hr {
+  opacity: 15%;
+}
+
+/* CENTER MENU START */
+.middle {
+  align-items: center;
+}
+
+.logo {
+  padding-top: 08px;
+ 
+}
+
+.search {
+  display: flex;
+}
+
+.search-bar {
+  width: 800px;
+  margin-top: 0;
+  height: 68px;
+  background-color: #f7f7f7;
+  border: none;
+  padding-left: 15px;
+}
+
+.search-btn {
+  border: none;
+  background-color: #f7f7f7;
+  padding-right: 20px;
+  color: #21b259;
+}
+
+.icons {
+  padding-top: 15px;
+  margin-left: -100px;
+}
+
+/* --------------- */
+/* BOTTOM MENU START */
+/* --------------- */
+
+.primary li:hover {
+  color: #21b259;
+}
+.drop .primary .one a {
+  color: red;
+}
+.drop {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 150px;
+  position: absolute;
+}
+
+.drop .primary .pds {
+  background-color: white;
+  position: absolute;
+  width: 350px;
+  padding-left: 0%;
+  display: none;
+}
+.drop .primary .one li a {
+  color: black;
+}
+.drop .primary .one li a:hover {
+  color: #21b259;
+  font-weight: 600;
+}
+.pds li:hover {
+  color: #21b259;
+  text-decoration: none;
+}
+.drop .primary .one:hover > .pds {
+  display: block;
+  transition: ease-in-out;
+}
+
+/* --------------- */
+/* BEDROOM DROPDOWN */
+/* --------------- */
+
+.drop .primary .bdr {
+  background-color: white;
+  width: 250px;
+  position: absolute;
+  display: none;
+}
+.drop .primary .two:hover > .bdr {
+  display: block;
+  transition: ease-in-out;
+}
+.bdr li {
+  padding-left: 0;
+  text-align: left;
+}
+.bdr li:hover {
+  color: #21b259;
+  cursor: pointer;
+  text-decoration: none;
+}
+.bdr li a:hover {
+  font-weight: 600;
+}
+
+/* --------------- */
+/* LIVING DROPDOWN */
+/* --------------- */
+
+.drop .primary .liv {
+  background-color: white;
+  width: 250px;
+  position: absolute;
+  display: none;
+}
+.drop .primary .three:hover > .liv {
+  display: block;
+  transition: ease-in-out;
+}
+.liv li {
+  padding-left: 0;
+  text-align: left;
+}
+.liv li:hover {
+  color: #21b259;
+  cursor: pointer;
+  text-decoration: none;
+}
+.liv li a:hover {
+  font-weight: 600;
+}
+
+/* --------------- */
+/* STUDY DROPDOWN */
+/* --------------- */
+
+.drop .primary .std {
+  background-color: white;
+  width: 250px;
+  position: absolute;
+  display: none;
+}
+.drop .primary .four:hover > .std {
+  display: block;
+  transition: ease-in-out;
+}
+.std li {
+  padding-left: 0;
+  text-align: left;
+}
+.std li:hover {
+  color: #21b259;
+  cursor: pointer;
+  text-decoration: none;
+}
+.std li a:hover {
+  font-weight: 600;
+}
+
+/* --------------- */
+/* KIDS DROPDOWN */
+/* --------------- */
+
+.drop .primary .kids {
+  background-color: white;
+  width: 250px;
+  position: absolute;
+  display: none;
+}
+.drop .primary .five:hover > .kids {
+  display: block;
+  transition: ease-in-out;
+}
+.kids li {
+  padding-left: 0;
+  text-align: left;
+}
+.kids li:hover {
+  color: #21b259;
+  cursor: pointer;
+  text-decoration: none;
+}
+.kids li a:hover {
+  font-weight: 600;
+}
+
+/* --------------- */
+/* DINING DROPDOWN */
+/* --------------- */
+
+.drop .primary .dining {
+  background-color: white;
+  width: 250px;
+  position: absolute;
+  display: none;
+}
+.drop .primary .six:hover > .dining {
+  display: block;
+  transition: ease-in-out;
+}
+.dining li {
+  padding-left: 0;
+  text-align: left;
+}
+.dining li:hover {
+  color: #21b259;
+  cursor: pointer;
+  text-decoration: none;
+}
+.dining li a:hover {
+  font-weight: 600;
+}
+
+/* DECOR DROPDOWN */
+.drop .primary .decor {
+  background-color: white;
+  width: 250px;
+  position: absolute;
+  display: none;
+}
+.drop .primary .seven:hover > .decor {
+  display: block;
+  transition: ease-in-out;
+}
+.decor li {
+  padding-left: 0;
+  text-align: left;
+}
+.decor li:hover {
+  color: #21b259;
+  cursor: pointer;
+  text-decoration: none;
+}
+.decor li a:hover {
+  font-weight: 600;
+}
+
+/* OFFICE DROPDOWN */
+.drop .primary .office {
+  background-color: white;
+  width: 250px;
+  position: absolute;
+  display: none;
+}
+.drop .primary .eight:hover > .office {
+  display: block;
+  transition: ease-in-out;
+}
+.office li {
+  padding-left: 0;
+  text-align: left;
+}
+.office li:hover {
+  color: #21b259;
+  cursor: pointer;
+  text-decoration: none;
+}
+.office li a:hover {
+  font-weight: 600;
+}
+
+/* KITCHEN DROPDOWN */
+.drop .primary .kitchen {
+  background-color: white;
+  width: 250px;
+  position: absolute;
+  display: none;
+}
+.drop .primary .nine:hover > .kitchen {
+  display: block;
+  transition: ease-in-out;
+}
+.kitchen li {
+  padding-left: 0;
+  text-align: left;
+}
+.kitchen li:hover {
+  color: #21b259;
+  cursor: pointer;
+  text-decoration: none;
+}
+.kitchen li a:hover {
+  font-weight: 600;
+}
+
+/* DOORS DROPDOWN */
+.drop .primary .doors {
+  background-color: white;
+  width: 250px;
+  position: absolute;
+  display: none;
+}
+.drop .primary .ten:hover > .doors {
+  display: block;
+  transition: ease-in-out;
+}
+.doors li {
+  padding-left: 0;
+  text-align: left;
+}
+.doors li:hover {
+  color: #21b259;
+  cursor: pointer;
+  text-decoration: none;
+}
+.doors li a:hover {
+  font-weight: 600;
+}
+
+/* WARDROBE DROPDOWN */
+.drop .primary .wdr {
+  background-color: white;
+  width: 250px;
+  position: absolute;
+  display: none;
+}
+
+.drop .primary .eleven:hover > .wdr {
+  display: block;
+  transition: ease-in-out;
+}
+.wdr li {
+  padding-left: 0;
+  text-align: left;
+}
+.wdr li:hover {
+  color: #21b259;
+  cursor: pointer;
+  text-decoration: none;
+}
+.wdr li a:hover {
+  font-weight: 600;
+}
+
+
+
+
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  
+}
+
+
+
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+
+
+
+
+
+
+
+.sale-img {
+  width: 100%;
+}
+
+.heading {
+  text-align: center;
+  padding-top: 30px;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.heading>h2 {
+  font-weight: 300;
+  font-size: 28px;
+  /* margin-top: 5px; */
+}
+
+.heading>h2>span {
+  display: inline-block;
+}
+
+.heading>h2>span>div {
+  display: inline-block;
+  width: 70%;
+  border-bottom: 3px solid #21B259;
+  margin: auto;
+  margin-bottom: 19px;
+}
+
+.items-container {
+  max-width: 1440px;
+  width: 90vw;
+  margin: auto;
+  margin-top: 16px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  /* height: 20vw; */
+  margin-top: 16px;
+}
+
+.item {
+  width: 15%;
+  border: 2px solid #e4e4e4;
+  text-align: center;
+  transition: all .4s ease-out;
+}
+
+.item:hover {
+  color: #21B259;
+  border: 2px solid green;
+}
+
+.item>h3 {
+  font-weight: 300;
+}
+
+.images {
+  width: 40%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /* margin-left: 8%; */
+  /* transition: all .2s ease-out; */
+
+}
+
+.new-arrivals-image-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.new-arrivals-image {
+  width: 100%;
+}
+
+.best-seller-image {
+  width: 100%;
+}
+
+.decor-image-flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 12px 0px;
+}
+
+.sale-image-flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 12px 0px;
+}
+
+.image {
+  width: 46%;
+}
+
+.home-decor-image {
+  width: 100%;
+}
+
+.kitchen-image {
+  width: 100%;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 16px 0px;
+}
+
+.left-bottom,
+.right-bottom {
+  width: 48%;
+  /* border: 2px solid black;    */
+  display: flex;
+  align-items: center;
+  height: 62vh;
+
+}
+
+.left-bottom {
+  background-image: url('https://interwood.pk/media/wysiwyg/Home-Furniture-Catalog-2022.jpg');
+  /* height: 62vh; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.right-bottom {
+  background-image: url('https://interwood.pk/media/wysiwyg/Doors.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box {
+  /* border: 2px solid rgb(247, 17, 17); */
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box>a {
+  /* text-decoration: none; */
+  color: #000;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.blog {
+  /* border: 2px solid black; */
+  width: 30%;
+  background-image: url('https://interwood.pk/media/mageplaza/blog/post/4/5/450x335_1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  display: flex;
+  cursor: pointer;
+}
+
+.content {
+  width: 90%;
+  /* border: 2px solid green; */
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  padding: 10px 5px;
+  cursor: text;
+}
+
+.content>h3>a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+
+.content>div {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.content>div>a {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  background-color: #21b259;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+h3 {
+  color: #21B259;
+  font-size: 20px;
+  margin: 8px 0px;
+}
+
+#sofa-set-designs {
+  background-image: url('https://interwood.pk/media/mageplaza/blog/post/b/e/best_sofa_set_designs_for_wedding_season_2022.jpg');
+}
+
+#blog-item {
+  background-image: url('https://interwood.pk/media/mageplaza/blog/post/r/e/recliner_blog_thumbnail_450x335.jpg');
+}
+
+@media (max-width:700px) {
+  .item>h3 {
+      font-size: 12px;
+  }
+}
+
+@media (max-width:500px) {
+  .item>h3 {
+      font-size: 8px;
+  }
+
+  .blog {
+      overflow: auto;
+      height: 40vh;
+  }
+
+  .left-bottom,
+  .right-bottom {
+      height: 40vh;
+  }
+}
